@@ -44,7 +44,7 @@ class Program {
             Console.WriteLine("První číslo řady: {0}", first);
             Console.WriteLine("Poslední číslo řady: {0}", last);
             Console.WriteLine("Diference: {0}", step);
-            Console.WriteLine("První číslo: {0}; poslední číslo: {1}", first, last);
+            //Console.WriteLine("První číslo: {0}; poslední číslo: {1}", first, last);
 
             // Logika pro výpis řady
             int current = first;
