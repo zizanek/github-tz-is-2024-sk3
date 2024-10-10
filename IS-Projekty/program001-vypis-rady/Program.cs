@@ -46,6 +46,12 @@ class Program {
             Console.WriteLine("Diference: {0}", step);
             Console.WriteLine("První číslo: {0}; poslední číslo: {1}", first, last);
 
+            // Logika pro výpis řady
+            int current = first;
+            while(current <= last) {
+                Console.WriteLine(current);
+                current = current + step;
+            } 
 
             Console.WriteLine();
             Console.WriteLine();
