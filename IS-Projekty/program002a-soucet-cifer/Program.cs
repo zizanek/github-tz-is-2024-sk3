@@ -22,6 +22,7 @@
             Console.WriteLine("========================================================");
             
             int suma = 0;
+            int multi = 1;
             int numberBackup = number;
             int digit;
 
@@ -34,11 +35,15 @@
                 number = (number - digit)/10;
                 Console.WriteLine("Aktuální zbytek = {0}", digit);   
                 suma = suma + digit;
+                multi = multi * digit;
             }
+
             Console.WriteLine("Aktuální zbytek = {0}", number);
             suma = suma + number;
+            multi = multi * number;
 
-            Console.WriteLine("\n\nSoučet cifet čísla {0} je {1}", numberBackup, suma);
+            Console.WriteLine("\n\nSoučet cifer čísla {0} je {1}", numberBackup, suma);
+            Console.WriteLine("\n\nSoučin cifer čísla {0} je {1}", numberBackup, multi);
 
             Console.WriteLine();
             Console.WriteLine();
